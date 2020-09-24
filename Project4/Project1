@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<title>CraftyBois.MC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+    body, html {
+        display: inherit;
+        height: 100%;
+        font-family: "Inconsolata", sans-serif;
+    }
+    div {display: inherit}
+
+    .bgimg {
+        display: inherit;
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://www.mobygames.com/images/covers/l/477121-minecraft-xbox-one-edition-favorites-pack-xbox-one-front-cover.png");
+        height: 200px;
+    }
+    .menu {
+        display: inherit;
+    }
+</style>
+<body>
+<center>
+<!-- Links (sit on top) -->
+<div class="top">
+    <div class="row black">
+        <div class="col">
+            <a href="#" class="block button black">HOME</a>
+        </div>
+        <div class="col">
+            <a href="foo" class="button block black">Animation</a>
+        </div>
+        <div class="col">
+            <a href="#rules" class="button block black">RULES</a>
+        </div>
+        <div class="col">
+            <a href="pdo.php" class="button block black">Registration</a>
+        </div>
+    </div>
+</div>
+<!-- Header with image -->
+<header class="bgimg display-container grayscale-min" id="home">
+    <div class="display-middle center">
+        <span class="text-white" style="font-size: xx-large">CraftyBois<br></span>
+    </div>
+    <div class="display-bottomright center padding-large">
+        <span class="text-white">Server is currently up!</span>
+    </div>
+</header>
+<div class="sand grayscale large">
+
+    <!-- About Container -->
+    <div class="container" id="about">
+        <div class="content" style="max-width:700px">
+            <h5 class="center padding-64"><span class="tag wide">ABOUT THE SERVER</span></h5>
+            <p>A cool server where you can chill and play some Minecraft with people. No PvP, no griefing, freebuild with minor PvE.</p>
+            <p>In addition, this server is controlled by some mad lads.</p>
+                <p><i>"Lets get this bread."</i></p>
+                <p>Owner: MitchSand53</p>
+            </div>
+            <img src="https://minecraft.net/static/pages/img/index-hero-og.088fb7996b03.jpg" style="width:100%;max-width:1000px" class="martop">
+            <p><strong>Moderators:</strong> Put mods here</p>
+            <p><strong>Admins:</strong> Mitchsand53 and R3DProdigy</p>
+        </div>
+    </div>
+
+<div class="container" id="rules">
+    <div class="content" style="max-width:700px">
+        <h5 class="center padding-48"><span class="tag wide">THE RULES AND COMMANDS</span></h5>
+        <div class="row center card padding">
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+                    <div class="tablink">Rules</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+                    <div class="tablink">Commands</div>
+                </a>
+            </div>
+
+        <div id="Eat" class="container menu padding-48 card">
+                <h5>The following contains every rule that applies to the server in great detail. Please read them carefully. Any updates or changes to the rules will be posted in a subsequent reply to this post.</h5>
+                <p class="">Do not attempt to avoid the automatic afk-kick timer. This includes using afk machines, macros, or any other form of making the game think you are not idle when you actually are. Violating this rule will result a three-day ban.</p><br>
+                <p class="">Do not grief other players. This includes destroying/building on their land, taking things out of chests/furnaces/any other storage device, and killing animals, without permission. This rule still applies even if their land is not protected with Worldguard. Violating this rule will result in an immediate permanent ban.</p><br>
+                <p class="">Do not advertise other servers in-game or on the forums. This includes saying/posting something such as "join this server: (insert ip)" or "hey do you guys want to go play on server?". It is okay to discuss another server indirectly without encouraging others to join it, such as saying "one time, when I was playing on this other server, event happened". You may mention other servers in private messages as long as you are not messaging random people and telling them to join another server. For example, you may message your friend and tell them that you are going to go get on server and ask if they would like to join you. You may NOT, however, message random players and say something like "hey go join (server)". Violating this rule will result in a permanent ban to which you may not appeal.</p><br>
+                <p class="">Do not exploit any bugs or glitches, or use a hacked client of any kind. This should be pretty self-explanatory, but in case there is any confusion, you may not use mods such as x-ray, auto-clickers, or anything that can give you an unfair advantage over other players. Violating this rule will result in a permanent ban.</p><br>
+                <p class="">Do not attempt to trap/kill other players outside of PvP arenas. This includes using redstone contraptions or any other means to harm other players or prevent them from escaping a certain area. Violating this rule will result in a permanent ban.</p>
+                <p class="">Do not attempt to reach the top of the nether (above the bedrock). This should be completely impossible, as there is a region on top of the nether that will deny any entry. However, if you are caught attempting to bypass this, or if you somehow bypass it and begin building on top of the nether, you will receive a three-day ban.</p>
+                <p class="">Do not claim a Worldguard region that is larger than 100 blocks by 100 blocks in the horizontal (x-z) plane. If you for some reason feel that you need to claim a region that exceeds these bounds, please contact a staff member for permission and explain your reason to them. (We will likely not care if it is slightly more than 100x100, such as 105x105, as long as you are actively using the area and not just claiming it to prevent others from using it.) Violating this rule will result in the deletion of the region.</p>
+                <p class="">Do not spam the chat with repeated messages. This is pretty self-explanatory. Just don't spam. Violating this rule will result in a warning, and subsequent violations will result in a 10-minute chat mute.</p>
+                <p class="">Swearing/profanity is allowed, as long as you don't take it too far. Stay away from saying things that are overly offensive towards specific players, and stay away from racial slurs. Overall we are quite lenient with this rule and will only punish you if you are really taking things too far. Just use common sense. Violating this rule will result in a warning, and subsequent violations will result in a 10-minute chat mute.</p>
+                <p class="">Do not verbally attack, insult, or harass other players. This includes being overly and unnecessarily rude to others or throwing harsh insults at them in a non-playful manner. It is fine if you "insult" a friend in a joking manner. Use common sense. Violating this rule will result in a warning, and subsequent violations will result in a 10-minute chat mute.</p>
+                <p class="">Do not ask staff members to give you special permissions or to promote you to staff. The answer will always be no. If you wish to become a staff member, please apply on the forums. Violating this rule will result in a warning, and subsequent violations will result in a 10-minute chat mute.</p>
+                <p class="">Added rule: "Do not attempt to trap/kill other players outside of PvP arenas. This includes using redstone contraptions or any other means to harm other players or prevent them from escaping a certain area. Violating this rule will result in a permanent ban."</p>
+            </div>
+        <div id="Drinks" class="container menu padding-48 card">
+                <h5>Command</h5>
+                <p>info</p><br>
+
+                <h5>Command</h5>
+                <p>info</p><br>
+
+                <h5>Command</h5>
+                <p>info</p><br>
+
+                <h5>Command</h5>
+                <p>info</p><br>
+
+                <h5>Command</h5>
+                <p>info</p>
+            </div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ttJm_MoBe_I4abtwC0oQX6O-xJToDQIBr3N-uHIShRJZdur6" style="width:100%;max-width:1000px;margin-top:32px;">
+        </div>
+    </div>
+
+    <!-- Contact/Area Container -->
+    <div class="container" id="where" style="padding-bottom:32px;">
+        <div class="container" style="max-width:700px">
+            <h5 class="center padding-48"><span class="tag wide">HOW TO CONTACT US!</span></h5>
+            <p>Please fill out the form below expressing your concern.</p>
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHgA5QMBEQACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABQIDBAEGB//EAD0QAAIBAwIDBQYEAwYHAAAAAAECAwAEERIhBTFBEyJRYXEGFDKBkaEjQrHBUtHwFVNicuHxJTNDc4KSov/EABsBAAIDAQEBAAAAAAAAAAAAAAABAgMEBQYH/8QAMxEAAgIBAwIDBwQABwEAAAAAAAECEQMEEiExQRNRkQUUIjJhcaGBsdHwFSMzQlLB4YL/2gAMAwEAAhEDEQA/ANCXjj41Ujy2r1jwrsePWZ90Xpdp/EVPzqDxtFiyRJni9xbsRbuCcEayOWfDzpe7xmviG9RKL+EzC6DElwRnqN6n4TXQgsqfUvjuniGUk7o6Gq5Q8yxTroZ+IXZvFRSvwEnI61dix7LZTlyb6MeirioNFABoosA0UAGiiwDRRYBooANFFgGiiwDRQAaKLANFFgHZ0WAaKADRQAaKAGUN4vY/jE6xtsOdZ5YnfBfHKq5ISXxP/LT5tTWHzYnm8kVw3EjTDtWGk+A5U540o8Chld8ljzxjl3jUFCT6k3kiuhQ8xOdKAZ8amsXmQeXyM+irioNND4EX6ajYw00WBKGFppkijGXkYKg8STilKajG2OMXJ7UObngAttMb3SmfGXA5KfCscNXv5rg1y0ijw3yYJeFXMedKhx5Gr454MplgnHoZWidDh0KkdCKuUkypprqiJUUWINNFgGmiwDTRYBposA00WAaaLANNFgGmiwDTRYBposA00WAaaLANNOwDTSsA00WAaaLANNFgGmiwDT5UWAaaLA5gUX5grfCNixJpU6RuAa87n1GSOWVS4vzPTafS4nijcVdeRTpr0B5oNNAEoneGVZIm0upypHQ0pRUlTHFuLTRet3Jnv971qt4Y9i1ZZdzRHf42yR671B4WTWYvF4koxKqSDzqvw2uhZ4ifUg0FjNk96L05VJTyL6kXjxy+hmubEQp2iSq6Zx51bDNudUVTw7VdmPG1WlIYoAMUwDTQAaaADFABppAGmgA00AGKADFABimAaaQBpoANNABppgPrT2dikt4p7niMUSyKG0gbgH1NYJ62Sk4xg2boaJOKlKaRK44JYOq2/DrxprtmAGs93HXcDFRjqsqe7JGkOWlxNbccrZXdezEttZTzzXcIeKNnEYGSxAzioZdfui1BMtw6FRmnNo87XJlKUvmbf3O3GEY/KkjbG34MZ/w4+m37VBpMmm0Q016uzx1BposKDTRYUGmiwoNNFhQaaLCjoLDkTj1pNJkk2gOTzJ+tCpA22c007I0GmiwoNNFhQaaLCg00WFBposKDTRYUGKLCgxTsA00WFHUjZzhFLHyGaTkl1Gk30L34fdxxdrJazIn8TIRUFmxt7VLkm8ORK2uDPirLK6DTSsKDTRYUGPGiwoJbz3eMdpJpHIZ51Tklix/FIugsknSIxX4ZVnW4IAOQS2KUMmHJC10G45YyruaX4jZyREm8tsEY3l1MfkuT9ayZM+GNxv0NkNPmk1Lb6ivWCBg1xzumhHJgXT0Y/tSA04r1J5EMUAGKADFABigAxQAYoAMUAGKADFABgdKYgxSGGKADFABjyoAZ8GiswZZb1oW0jCQyg7nbfI+dZdRLJxGF/c06aON2519id5d2s7AG3tkjXYCLu/pSx45x5Td/Unknjlw1wb5Ba2sKTR8Ht9Dbq0svaHfyNZ05zlteR39qLmscEpLGv1dlB41eHuQGGAdNCAfrU/dsfWXIveJ9FwYb2/vGYLNcysRzBfKnwwBtV+LBj6pGfLmndNi/HlWkzBigAxQBw90E4zilKW1NjUdzSPH3b+8TSSF37PUXVTvjNeOz655si4pWerwezZYo3J8pGTV4VpJIu1ZxTAdRS6okOeaikAw4b+Ksig/Cc7+f+1Ahhpr1Fnkg00WAaaLANNFgGmiwDFAGa6uBENKYL/pUkrArjuWBXWO6etNoDUJIzydfrUeQL7Sf3eUTRiNyM41jUKryQ3xpkoT2StGpve78MUtDJqPxRxbD51WvDxcbvyXNzy9I/gyvbSoSrRSZzjGnrViyRfcqeOS4oncWNxbnE0ZTbOM5pRywl8rHLFOPzIox4VZZWGmiwNMHDru4QPDbSun8QGAfmdqqlnhF05ItjhySVxiVT20tuxWVNJHPfP6VKGRT5iRnCUPmIKCvw7elSdEU2gOo8yaKQWzmmmIxT8QgilaEZaRTuuMfeuRq/bGHTNx5cl2/96GiGmnJX2F9z7Rw21zFDJbtiQHDBhsR0NZcXt5Ti24P9HZetC5K4sv4fxpL2+W193aNmRnDa8jbG3Lzrbovai1WRw20VZdK8cN12NWAAJb4Rzrpyap2ZknfB85MpikPaEbDBANeCjXFHu5aiF0T0uRsprrGA3rYyED8RRt0GaBmuM9lGqE5KjGaBFkd08eezfGedID1WK9OeTDFABigAxQBxyEUseQGaAMF3egoFiJGRkk7FanGPPIGEN3VB8KtEzshDFFGx04z86BIsxoVcn4hnpUbHVkxO0O6tpI2IO+1FWKhtBO7wqY5GCNvgNtmqJRjfKLFKSXDLYp5Ym1RsOWO8Aw+9RlCLVDWSSdkWcsuGRPkuDTUUnYObZDFSIBikB05xpydPQZ2+lA/oc007EGKADFAHHUi3mnDJoiQsQT3m8gPlWbPnliklttGvT6aOeL+Kmjyd1MHnec51scnw5V4TUZJ5ssp5Or8unkbox2rahddJHcMrSJqK8j4UQbjwmWRddDPa3N1ZcftJoomMOVjbKHAVjhjn03+VdP2dmWHIpNhkhGeKUWeqvePwpLJBAglHw9or5FdbVe1lByhGN/XtyV6T2RPLGORyr9zy89rbltTM/LGARXm4t1SPRZNPKct0pEgdtjXZi7SZikqbQyif8ND5UxDTh9nbXFuJJVJfJB7xH70hGr3Cy/uf/o/zooBtpr0p5Wg00BQaaAo42FUsxAA5k0CYo4ldLLpWNjpXfY86nHgcVasXMRp59anY9pIvlQS2aLFt5OGT8VTjYedF8DUC6abSEIG4TSfUYx+tRT5Hsoq7XCsxwNtj5/1n61IVFlpevbuNO6Hmnj5+tKSsHEeWlzHdISmQynDL4VU1QqL9NAUGmgKDTQFBppWFFfaxdr2QkUyDmud6dOrEWaaB0Gnn6UmCXJ5G6ujFdC3md1mIyEY7kf0K+f5sWoxtrJf6t/ydWEU47kih5/OqFEmkUST+dTUSVGdpCT61LaOjzdySl5KyHSdZORt1zW+PMUjZibTTQwVri4hWTuZYZ+KprTS7HQeoRqjJWNQ/MDG1a4qkkZJO22Mbd8wr6UyI44TMOwkXO+qiwNvbCiwPP8AH+O3dy5ii128aOSpUsjtt1IPL5V0cuolOVLhHFwaZqKk+bGPAOOz/wBnH3wdoY9lk1ZLj08q26dylHkz6jHU6ijXJx5D+Z19ExWjgp8HKYbnistyDErHQfE0rRZDD3kzJ2xGlTkc8Y/r1p2WuN9SGtmDb+flmjcGwn2v5QdhnehC2kC5ADBiN9hUgotNyWQjqcf1/XhURbUQ7QkqMnltTsW0BLg4B9TTsNpNOItZTCZCTjY+B8j9PtStMjssfWfHYZkZpUIwM9w5GKk8XFplL46lVz7SWogDWf4kp/K4Kgfz+VVpE1B9y6D2gs5bZZGJSXG8R509j8xSi0zFJ7TAFSIwAM6jjIz9alUAUJMUy8Tma9E2sxuCWXA2zQ53wuhJY+DbwPjk/bMl07SI3wh+ed84/wBaW1MeSNI9HbX9tc40SAMRnQ2xFRlFrqVinj/BvfL6O896ihEYC4YE55j9642t9mz1WRyjKuKNmDULHDa0Y14DJNK0cd3CWQDIAPWsP+A5V/vRP3uK7M8ve3y2s0sLqxaJ2ViOuDXOlpZQk1fQ6uPTOaTvrR6OH2cllgjlW7twHUMAc7ZGa6MfYuRq9y9Dmy1UYtqmeU4rwxoOIzR9vG2G5jkahLSyxPY3yjoYnugpI7b5ht4onYFkUAnxqxLg0PljGKwkmjVxIgDDIzmmAwtOGTCAZlj5nxooQz4Zw2bVJiWPp40qA2nhs399H96KA8jx7CyRwTMHdV19ooAznofMEMP9t5yzSytyb5CGGOOO2PQz2kSywSE9sEiH/TPMk7dMfemssocWDwxny0RBugAGkUDYDVIg/Wrve2u5Q9JHyNluZo1Qy+76XbSrLMr5PqCd9qi9bk6J/wB9CL0SYe/r2mOyQA7AkkZo98zdmRfs9d5Da2sluAk6uskDRZ0Rndnzvhs8qjLXZlxuLIaLHt5Ekt0VeRJRGn+WTOjyyM5rRHUZ5K1Irnpsa4iv3/k2cKeC6n7FQrlRnVk5bw2wKT1GbdUmV+7U91/31F11FjijW0bvoMukb/Dk8vlmqXOSfV+pujGLjdL0LpzNZXgt1kiKIyjLDfBO/XpWiGryQgjJl08J7pVyXJIZZWWPSygHL7gfpS/xKS6mN6dxXxGeScqZVxsSNR6ZGcDPzqyGussjp00Vre9nIwUA69iM7H5VphqL7kZ6Vk2dDJEkmRndQM8/lTWdFO3qEMil272nGSfHlz/Wl4opQ4OzzJGTqDaGCupI6HcfUU/EGsTss4XBJeyGS7jmS3gjaSSRBuwGkYHn3xWfVZV4coqVNmvBheOamouS8kYLWzmF7Iyu8yswCLg5yDnlms+kk8HE5dvM0ahx1CvFHo/IfXV7EnEYoIXJijVY5CiEamGcnlvv1rn6bPkWq8SUmouV1b6M25Y4PdPCUU5peXf7jILGSPxSTy9a9asmKXSSPJW/I7c9jb2j3A1ZQKTv4nH8qolm2N3ykbVhU4Jrh0uv9/vJ5+GwtL2W4lkU4LEkBsHf5GvG6nUvxW492z0mmxyliSjXC7/YZ+9x28SoIiwRcAmTfb5Vrh7Z1SSikuPo/wCTLP2Pbcr6lE0E0rXE0E3ZC5QKylA+Bjofr9aw59XLPNTyLlP7F+PSZ8cdsOTzMgKzzQoSexYruMZrdHMnFSfchKLi6Y5sZitrGrHJXI+9WxkpK0RGdpdBbfvHkTSlOMVbBs2WnEY0kOp9IK7ZpeJHzHFObpGo8Si/vV/9qPEh5kvDn5Hm+JWN5c8S7eG2EkaqAAzDB29c9c1L37D1b/Bj3xrqSktWtuBXKuAGlbU8ajPe1Lpx5AA7eZqEmsr8ROjTizRjHoI5IZYoFmkwobkhbDfSi418xJZot0v3OszTQvK8ozGNKxknLYHT+fjVkccdt2OWRp1SGPDoYbmKyWeEyKbo6lB0nJBIycbjbOBjn61RNNSaTosh8ttDP2k4hPbWQS2h7NWOklSNhjkvTfx8qrx4pt2ycskOiPPxQFrn3a2nRxKhDOmwHiN/Sr8kXBPkrjPf0XI1treOwDPbX9us22rvAsDjpgk4zt06VUsrTJTwKS+Jix2vnkM7Iiv8TP2RJz458an46u0V+HjSrd+X/JXM8zSl7qeIuSMh1TV98mh5m+Lfqw8LG/lT/SyxhPIpIWR0G3wsFPX5VTvVkKhdvr+hqtuFXEo1vmJPE88eQ/r0qEtQolGTPCPTn+/p/wBmpeHRorMkhYQ/FjOo5zjbO/yFW4885dEZ/wDMyK4r9v8AsmsAQs6wXTFgBjsc+PiK2f59cxKpY5NU69USg4XPKXX3VoCCO6c6vHfeqp62MOHIdbfqNeFcCRrgpfwN2TJhMPjDfXwqMNfDJLapF+HmXxJkuKWEdhcTWNhbPbpJDu8snaF0ZlbI2GPhG29WThHJOG99zXjyPDNKKu+BP7I3BdridUd7kMk8DADCgsdyOo2IxRr5whKLk+GmQUlpobYK7FiPMntOsBiLHJj77bHMZ3rK9nh7n0Lt9R8XuNLOSQXcsMuQIhgBgSOfiedZs+pm+Yso0mixZpPd9z0SSRm2EckEbqygEHkR4YrS9JjlHc7v7sl4EU9vlwJH92hRzFaquxPdkONvWuXy+5shp9Rh+SQts5oOI2oldSj/AJkDnb61dNShKixLUSVqS9DUblYl0LnCr41W1bLfeVj+GT5Qmks4pbyS5F0VEjHKiPP71q8RqKjXQyZseSUnKKN9rZFbddE6sOY1KQcfepw1KgtrRncZxu4lphkihyMOpbmucUsuoxzXkyqUk+HwUMSpJbO3Lc1nu3RfpJVlSK2mGeZ+tS2o6ls5JMwDe8LcEYyBPe6SxyOhHr9KtT8q9DmpRfRx9GwvDizNpH2UTSMHK9ozE8tySPKoqTbtmOct0r6/pQplxlfxI20qANiQdqsToEmM7NrSdgsPDDJpKiV5J8Bc9eXkaUsuXvP8E4rc/inQxhvHSNo4rezii0NpVrgNq8evLnVDVvc27LFiinam7+iZTd30U5jjn90khXGNJY746YOKujPIlSbLI6f6yf6CO94mLedeysVZAAzFE2Izyyc1bFSmuZElihF02/UZWl3LcadOY9as6pG4Tl0yFqmSS6l3usHykv1tkGn7Q4Yl2/xuzn/WnwRWOuVx/wDNfls0QW3EJsm3guGZtyyWqxAnx1c81Bzguv72Vz2f736yb/Y2L7P8TmA7eZB/3Jmf7VW9TjXT+Cl5sUflX4S/PI5h4dpsRBeN7yQDkqCuR4c/lVDy3K48GOTTnujwV2qxW9wxhhe1kMQ3ZVORnlnfwFaYajLBXCXoaVp8+dfDJP8Av1RRd8cC3UsM0q6lxk+7pucdCF2+1alrNZXE36lU9FnTquf04NHDrkzhp45GyepJ39a5+olKU258tnUx6FTwxUnTX8m736dOXZnpkDBqqDcJbo8Mi/Z0l8sjl1xe8mljlMssTpHo1QlDkZz1XyFave81Vf4K5aTULoZLWG1ADI7oVQRrrkAOkEkDbpufrWfJkyTfxOzFlU06l2Omwsu394FtEZy2rtSuWJ5Zz6VHxcm3bboreSVVZVeXVvarm5lSMdA3M+g60RhKXRChvv4bMlnxmC61iB20oQu6dK3eLqMaSZqjDUVa5FvF+IQ2gC5keSQEgLjAHnVeKEpcmqGfUviUa+9kOG2VpFCkkMlxgpjJYb/LFGTJJvlFijqVTjRZLb97KTH/AMh+9Qv6GfLjzydyjy/ISmYRyPCG1GM4JO2fOtW2+Tbik3HnqP7CG8PD4mFvJpYEjbpnwrNNw3VZL3nEuHIkXliOltSHwO1KkxeFhyveuSPvLsQG76nmGGQae3yKfcYL5W7JM1tne0gPomKKl5iWmzV8WR2WW/slfDDNJZw4P5VLH70S1UOxnlqoNVy/RBxD2WljWa8k4gv4cRIAh6gHrqqENQuI1+TLCnJRQg4PwibiIeUhjCuRgEZYgZ5c605Mihx3NcsWOL2ylQyj4JdpCiJwwktl3DFjgjIA51X48f8AkShPHBfDk6/Qsht7wydn7jDG4TQkZDd3Jyc7+ZpOcauySzx75JeiGEXsxxJm1PdWtsPCKEMfrjP3qt6nH5WUy1GLum/u6/Y2J7JW7Li8vLqcYwRq0gjwqv3uS+VUVvUf8YpDa24ZZWkYSC0hUAYzpyT86qlmnN22VPLN9Wy6O3hhGIYkj/yKBUHJvqyLk31ZJhkYO9KyJWRRYqFt7xaytGaOSX8Uc0VSSKujhnItx6bLkVxXB523kubniLXEkcrtpYhnRk26aQCdvnWtqMY0bNkca27q+3P8EW4Lc3MjyTdknaYbIdsr/W29SWfFFVyR982uuX9zfbWF3axBIZUBAwcZ5/MVTPJjk7oth7RilTTFV3xTilhddlcJFInMMF6eoq6OLFNWjVDUymt0eg3eXoDWejXZtR0aFMgcqrd2DhCS5RU6wkfCBvnI2ppsqlpsUlTijwfG2/4rcjJID43OegrqYP8ATRjljjCTUUMeAw32ora9kzyLjBcZTPX1qctSoLnt0+hlnLG5XJvrz/H2N3EfZziN5cQgR4RFwzlg3WsePU4oJl+bVY3Ti7N9j7O3EEDq10FGe6pUNj5jFUz1MW+EVR17jw42Qn4PeqcpJG48yR+1NZod0Wr2hDumhLL7N30ly8wliQk/CTkfatC1MKopeugpcJj9rmVBpErYHQnOKy7E3dGl6HFKNx7kHlhmObhWZv4lbFS2tdCpYc+B7cXRlZjs2HcaVW/LnBGadz7h7zni/ijwiuSwvAdkB8wwp+JEvWsxPoe5Oo8zXOs4oBaAOjYYHLwosApAFAHc4pkrOg5oA7QMiaBETQIjQBSYYtWrs01HrpGaludVYW6qzp8KREgyBuYB9RQBW8UYDOcKo+Ik8qabA8jxeaC5uzojLINixYEP6Y2+9dDEpQjR19HGShUiqfiHYxl3jYjroxkfWmsdujc8lDK1uRNaROmcMuRnnVM47ZNMsg7SPN3PELqHilysdxIFDE6c7dOlbYwi8adGVyamyridtcKHuJ9LMxGp18eXKnjkvlQskX1LLO47CSKUDOMZHiKJxtNC2xdWj0yXRCK0MjBSMgg1j29mSlpcMraVHf7TuVGO2JH+IA0vCi+xTL2fj7NnDxaTkyKftR4K7GaXs6S6MgeKx/mQj0O9HgsonocqdLkztNaSk4lkUnoVqaU12NC1Gpxx+KKpcETEzAtblpkHNlXOPI093nwacOrjNPfw/qzHLKU2YMCDyIxU0rRo3KSNIuSBs+PlUVFFXgY4ttLqe/rlnDCgAoAKACgAoAKAKri6gtU13E0cS+LsBUoxcuEhq+x2K6gmj7SKVGTGSQeXrQ4tOmNpp0ySMsiB42DIwyGU5BFJqnTBgaBETTEZL29trNM3M6R+AJ7x9AN6lGEp/KSjGUuEhHc+0jzN2XDbVmY8mkGT66R+5rTHTJczZshonW7I6RR7he37BuJXDYByEGDj5chU/EhDiCH4+DD/AKUbfmzvE7BIbOMwZCw5JBOS2cfypY8jcnfcen1Mp5Xu5bEMhBUhhkEYI8a0o6DK+Fh7a8T8ciHByrHblUsvxR6ChcZdTTxyONbGRlQandWZh+b1qGFtypksqSjaFZnkaII7sy7ZDHO4q/artFe7iiBc1KhWNeFzu1uUJyEOB6VRkjzZbjlwamfnUKLLMtxcCFdT5wTjapKNkXKilpgeRppEdxU0h5jpUqB8jDhfEp7eExxn8xPoaryYlJ2zHl0sckt1m5eNKyqJ0DHqNO1U+BXQzS0Mk3tFEkmp2YDAJJA8K0JcHTjaikz/2Q==" style="width:100%">
+            <p><span class="tag">FYI!</span> Website is subject to change</p>
+            <p><strong>Form</strong> Thank you!</p>
+            <form action="" target="_blank">
+                <p><input type="text" placeholder="UserName" required name="UserName"></p>
+                <p><input type="text" placeholder="Person" required name="People"></p>
+                <p><input type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+                <p><input type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+                <p><button class=type="submit">SEND MESSAGE</button></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- End page content -->
+</div>
+</center>
+<!-- Footer -->
+<footer>
+</footer>
+
+<script>
+    // Tabbed Menu
+    function openMenu(evt, menuName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("menu");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" dark-grey", "");
+        }
+        document.getElementById(menuName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " dark-grey";
+    }
+    document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
