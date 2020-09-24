@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<title>CraftyBois.MC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="foo.css">
+<style>
+    body, html {
+        display: inherit;
+        height: 100%;
+        font-family: "Inconsolata", sans-serif;
+    }
+    div {display: inherit}
+
+    .bgimg {
+        display: inherit;
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://www.mobygames.com/images/covers/l/477121-minecraft-xbox-one-edition-favorites-pack-xbox-one-front-cover.png");
+        height: 200px;
+    }
+    .menu {
+        display: inherit;
+    }
+    .hi {
+        width: 100%;
+        height: 72px;
+        background-image: url("http://s.cdpn.io/79/sprite-steps.png");
+
+        -webkit-animation: play .8s steps(10) infinite;
+        -moz-animation: play .8s steps(10) infinite;
+        -ms-animation: play .8s steps(10) infinite;
+        -o-animation: play .8s steps(10) infinite;
+        animation: play .8s steps(10) infinite;
+
+    }
+
+    @-webkit-keyframes play {
+        from { background-position:    0px; }
+        to { background-position: -500px; }
+    }
+
+    @-moz-keyframes play {
+        from { background-position:    0px; }
+        to { background-position: -500px; }
+    }
+
+    @-ms-keyframes play {
+        from { background-position:    0px; }
+        to { background-position: -500px; }
+    }
+
+    @-o-keyframes play {
+        from { background-position:    0px; }
+        to { background-position: -500px; }
+    }
+
+    @keyframes play {
+        from { background-position:    0px; }
+        to { background-position: -500px; }
+    }
+
+</style>
+<head>
+    <center>
+    <div class="top">
+        <div class="row black">
+            <div class="col">
+                <a href="project1" class="block button black">HOME</a>
+            </div>
+            <div class="col">
+                <a href="foo" class="button block black">Animation</a>
+            </div>
+            <div class="col">
+                <a href="project1#rules" class="button block black">RULES</a>
+            </div>
+            <div class="col">
+                <a href="Registration" class="button block black">Registration</a>
+            </div>
+        </div>
+    </div>
+    <!-- Header with image -->
+    <header class="bgimg display-container grayscale-min" id="home">
+        <div class="display-middle center">
+            <span class="text-white" style="font-size:xx-large">CraftyBois<br></span>
+        </div>
+        <div class="display-bottomright center padding-large">
+            <span class="text-white">Server is currently up!</span>
+        </div>
+        </center>
+    </header>
+</head>
+<body>
+<div class='angrytext' >UMSL CS Major!!</div>
+</p>
+<div class="hi"></div>
+</body>
+</html>
